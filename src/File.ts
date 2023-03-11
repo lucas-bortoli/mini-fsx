@@ -26,11 +26,4 @@ export interface File {
    * User-supplied comment
    */
   comment: string | null;
-
-  /**
-   * Is this file encrypted with a symmetric encryption algorithm? Once a file
-   * is encrypted, the only way of changing its key is by re-uploading it.
-   * Will need password for downloading and uploading.
-   */
-  encrypted: boolean;
 }
