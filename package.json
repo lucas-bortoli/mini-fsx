@@ -1,4 +1,8 @@
 {
-    "name": "mini-fsx",
-    "author": "Lucas Vinicius de Bortoli Santos"
+  "name": "mini-fsx",
+  "author": "Lucas Vinicius de Bortoli Santos",
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "typescript": "^4.9.5"
+  }
 }
