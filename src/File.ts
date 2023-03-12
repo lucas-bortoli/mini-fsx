@@ -8,6 +8,11 @@ export interface File {
   _version: 0;
 
   /**
+   * When the file was uploaded for the first time; UTC datetime format
+   */
+  uploadTimestamp: string;
+
+  /**
    * File contents size
    */
   size: number;
